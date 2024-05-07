@@ -1,0 +1,53 @@
+//
+// Theme style
+//
+
+// Initialize
+@import 'init';
+
+:root {
+    --app-height: 100%;
+}
+
+.appHeight {
+    height:     var(--app-height);
+}
+
+// Components
+@import './core/components/components';
+@import 'components/components';
+
+// Layout
+@import './core/layout/base/layout';
+@import 'layout/layout';
+
+// Custom Styles
+.stripRow {
+    background: $cmwhite;
+}
+.stripRow:nth-child(odd) {
+    background: $strip;
+}
+
+.disable-text-selection{
+    -moz-user-select:none; /* firefox */
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE*/
+    user-select: none; /* Standard syntax */
+ }
+
+ // Stripe Payment Integration
+
+  #payment-message {
+    font-family: 'Manrope';
+    background-color: #0A253C;
+    color: #FF0000;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: var(--radius);
+    font-size:0.7em;
+  }
+  
+
+
+  

@@ -1,0 +1,74 @@
+.ql-container {
+    font-size: 12px;
+}
+
+.ql-size-10px {
+    font-size: 10px;
+}
+
+.ql-size-12px {
+    font-size: 12px;
+}
+
+.text-editor {
+    width: '100%';
+    margin: 0 auto;
+}
+.ql-editor {
+    min-height: 100px;
+    font-family: 'Manrope';
+}
+
+/* Set default font-family */
+#editor-container {
+    font-family: 'Aref Ruqaa';
+    font-size: 18px;
+    height: 375px;
+}
+
+/* Set dropdown font-families */
+#toolbar .ql-font span[data-label='Aref Ruqaa']::before {
+    font-family: 'Aref Ruqaa';
+}
+#toolbar .ql-font span[data-label='Times New Romance']::before {
+    font-family: 'Times New Romance';
+}
+#toolbar .ql-font span[data-label='Calibri Light']::before {
+    font-family: 'Calibri Light';
+}
+#toolbar .ql-font span[data-label='Helvetica Infanity']::before {
+    font-family: 'Helvetica Infanity';
+}
+#toolbar .ql-font span[data-label='Raleway']::before {
+    font-family: 'Raleway';
+}
+#toolbar .ql-font span[data-label='Macondo']::before {
+    font-family: 'Macondo';
+}
+#toolbar .ql-font span[data-label='Roboto']::before {
+    font-family: 'Roboto';
+}
+
+/* Set content font-families */
+.ql-font-Aref Ruqaa {
+    font-family: 'Aref Ruqaa';
+}
+.ql-font-Times New Romance {
+    font-family: 'Times New Romance';
+}
+.ql-font-Calibri Light {
+    font-family: 'Calibri Light';
+}
+.ql-font-Helvetica Infanity {
+    font-family: 'Helvetica Infanity';
+}
+.ql-font-Raleway {
+    font-family: 'Raleway';
+}
+.ql-font-Macondo {
+    font-family: 'Macondo';
+}
+.ql-font-Roboto {
+    font-family: 'Roboto';
+}
+/* We do not set Aref Ruqaa since it is the default font */
