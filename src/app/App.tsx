@@ -5,7 +5,7 @@ import {LayoutProvider, LayoutSplashScreen} from '../_metronic/layout/core'
 import {MasterInit} from '../_metronic/layout/MasterInit'
 import CustomToastContainer from '../customComponents/customToast/CustomToastContainer'
 import {AuthInit} from './modules/admin/auth'
-import { ConfirmDialog } from 'primereact/confirmdialog'
+import {ConfirmDialog} from 'primereact/confirmdialog'
 
 const App = () => {
     return (

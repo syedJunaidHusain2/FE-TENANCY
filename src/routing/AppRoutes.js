@@ -57,7 +57,7 @@ const AppRoutes = () => {
                         }
                     />
                     <Route path='document-signing/*' element={<SequidocDocumentRoutes />} />
-                    {isUserLoggedIn ? (
+                    {!isUserLoggedIn ? (
                         <>
                             <>
                                 <Route path='/*' element={<PrivateRoutes />} />

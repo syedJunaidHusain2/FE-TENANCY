@@ -44,7 +44,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pd
  */
 setupAxios(axios)
 Chart.register(...registerables)
-oneSignal.init()
+// oneSignal.init()
 
 const container = document.getElementById('root')
 

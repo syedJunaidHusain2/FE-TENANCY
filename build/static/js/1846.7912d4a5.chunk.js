@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkdemo1=self.webpackChunkdemo1||[]).push([[1846],{41846:(e,s,d)=>{d.r(s),d.d(s,{default:()=>c});d(72791);var t=d(80184);const c=()=>(0,t.jsx)("div",{className:"text-center fw-bold fs-1 text-cmGrey500 py-20 bg-cmwhite rounded shadow",children:"Coming soon..."})}}]);
+//# sourceMappingURL=1846.7912d4a5.chunk.js.map
